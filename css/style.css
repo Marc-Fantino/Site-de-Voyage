@@ -1,0 +1,10 @@
+
+Header{
+    background-color: black;
+}
+.nav-item{
+    padding-top: 20px;
+}
+.row {
+    justify-content: right;
+}
