@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     
@@ -13,47 +14,53 @@
 </head>
 <body>
     <Header>
-        <div class=".container-fluid">
-            
-                <nav>
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Nos partenaires</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Reservation</a>
-                        </li>
-                        <img src="img/Grand aire Voyage (1).png" alt="logo du site sur le Japon" width="80px">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Nos circuits</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link "href="#">Nos Hotels</a>
-                        </li>
-                        <form class="row gx-3 gy-2 align-items-center">
-                            <div class="col-sm-3">
-                              <label class="visually-hidden" for="specificSizeInputName">Name</label>
-                              <input type="text" class="form-control" id="specificSizeInputName" placeholder="Login">
-                            </div>
-                            <div class="col-sm-3">
-                              <label class="visually-hidden" for="specificSizeInputGroupUsername">Mail</label>
-                              <div class="input-group">
-                                <div class="input-group-text">@</div>
-                                <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Mail">
-                              </div>
-                            </div>
-                            <div class="col-auto">
-                              <button type="submit" class="btn btn-primary">Connexion</button>
-                            </div>
-                          </form>
-                      </ul>
-                  
-                </nav> 
-             
-            
-        
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container">
+          <a class="navbar-brand" href="#">Grand Aire Voyage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nos Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reservation</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nos Circuits
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nos partenaires</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Rechercher</button>
+            </form>
+          </div>
         </div>
-   
+      
+      </nav>
     </Header>
+    <section id="section-1">
+      <div class="container">
+        <article class="presentation">
+          <h1 class="presentation-1">Destination Féérique</h1>
+          <h3 class="presentation-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat tempora facere placeat perspiciatis modi qui omnis numquam inventore delectus! Ex similique quis deleniti velit beatae maxime exercitationem numquam fuga!</h3>
+        </article>
+      </div>
+    </section>
+    
+    <script src="js/bootstrap.js" type="text/javascript"></script>
 </body>
 </html>
