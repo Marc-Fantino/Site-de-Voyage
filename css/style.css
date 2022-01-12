@@ -1,32 +1,54 @@
 
 
 /* Header--------*/
-/* section-*/
-#section-1{
-    
-    
+.navbar{
+    border-bottom: 4px solid rgb(36, 15, 70);
 }
+
+/* section-*/
+
+
 #section-1{
-    background-image: url(/img/stock-photo-happy-family-enjoying-winter-vacations-in-mountains-val-thorens-valleys-france-playing-with-1553514371.jpg);
+    background-image: url(/img/header.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center ;
-    
     height: 600px;
-
-    
+    width: 100%;    
 }
 .presentation{
     padding-top: 100px;
     width: 460px;
 }
 .presentation-1{
-    color: rgb(14, 17, 56);
+    color: rgb(36, 15, 70);
     font-size: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .presentation-2{
-    color: rgb(14, 17, 56);
+    color: rgb(36, 15, 70);
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.partenaire{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(16, 16, 131);  
+}
+/*section-2*/
+
+
+
+/*Section-4*/
+.col-3 {
+    transition: 0.2s;    
+}
+.col-3 :hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 2px rgb(16, 16, 131);
+    transform: scale(1.1);
+}
+#section-5{
+    align-content: center;
 }
