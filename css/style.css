@@ -52,3 +52,6 @@ header img{
 #section-5{
     align-content: center;
 }
+.container{
+    flex-wrap: wrap;
+}
