@@ -55,3 +55,9 @@ header img{
 .container{
     flex-wrap: wrap;
 }
+#section-7{
+    background-image: url(/img/bloc-form.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
