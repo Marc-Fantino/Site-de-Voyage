@@ -1,0 +1,18 @@
+@media (max-width: 300px){
+    .partenaire{
+        display: none;
+    }
+    #section-7{
+        width: 100%;
+    }
+    #section-7 h3{
+        font-size: 15px;
+        text-align: justify;
+     }
+}
+@media (max-width: 767px){
+ .footer{
+     width: 100%;
+     height: 100%;
+ }
+}
